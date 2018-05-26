@@ -1,9 +1,9 @@
 bochs: emulator, loads the bin file referenced in bochsrc to boot sector
 1. write asm
 2. nasm ( produces 512 bytes bin ) - can view with hexdump/od
-   - nasm boot_sect.asm -f bin -o boot_sect.bin
-   - hexdump bs-3-2.bin
-   - od -t x1 -A n bs-3-2.bin (*** bytes are reversed msb-lsb)
+   - nasm bs.asm -f bin -o bs.bin
+   - hexdump bs.bin
+   - od -t x1 -A n bs.bin (*** bytes are reversed msb-lsb)
 3. change bochsrc file in workspace
 4. run bochs to boot the new assembled boot sector
 

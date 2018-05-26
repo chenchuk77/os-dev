@@ -1,6 +1,6 @@
 
 # Tell bochs to use our boot sector code as though it were
 # a floppy disk inserted into a computer at boot time .
-floppya: 1_44=/home/chenchuk/ws/bochs/bs-3-6-conditions.bin, status=inserted
+floppya: 1_44=/home/chenchuk/dev/os-dev/bs.bin, status=inserted
 boot: a
 
