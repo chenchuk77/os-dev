@@ -2,7 +2,7 @@
 ; A simple boot sector program that demonstrates addressing.
 ;
 
-[org 0x7c00]        ; tell nasm where this code will be loaded
+[org 0x7c00]        ; tell NASM where this code will be loaded
 
 
 mov bx, HELLO_MSG

@@ -71,4 +71,4 @@ Hello, World !Goodbye !0x12AB
 ### License
 This project is for testing and there is no license, however it worth saying that
 the attached pdf was written by [Nick Blundell](https://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf)
-Copyright c 2009–2010 Nick Blundell
+Copyright c 2009–2010 Nick Blundell. im attaching it as a reference.
